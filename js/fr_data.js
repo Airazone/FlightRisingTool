@@ -351,7 +351,7 @@ FRData.BanescaleTertiaryGeneList = [
     ['Contour', 'Common', '75000 T'],
     ['Peacock', 'Common', ''],
     ['Trimmings', 'Common', '75000 T'],
-    ['Underbelly', 'Common','75000 T'],
+    ['Underbelly', 'Common', '75000 T'],
 
     ['Crackle', 'Uncommon', '95000 T'],
     ['Ghost', 'Uncommon', '80000 T'],
@@ -1365,8 +1365,8 @@ FRData.ModernBreedList = [
     ['Snapper', 'Common', ['Plants', 'Seafood']],
     ['Spiral', 'Common', ['Insects', 'Meet']],
 
-    ['Bogsneak', 'Uncommon',['Plants','Meat']],
-    ['Fathom', 'Uncommon',['Plants','Seafood']],
+    ['Bogsneak', 'Uncommon',['Plants', 'Meat']],
+    ['Fathom', 'Uncommon',['Plants', 'Seafood']],
     ['Skydancer', 'Uncommon', ['Plants', 'Insects']],
     ['Obelisk', 'Uncommon', ['Insects', 'Seafood']],
 
@@ -1384,9 +1384,9 @@ FRData.AncientBreedList = [
     ['Aberration', 'Common', ['Insects', 'Plants', 'Seafood', 'Meat']],
     ['Undertide', 'Common', ['Seafood', 'Plants']],
     ['Aether', 'Common', ['Plants', 'Insects']],
-    ['Auraboa', 'Common', ['Seafood','Meat']],
+    ['Auraboa', 'Common', ['Seafood', 'Meat']],
     ['Dusthide', 'Common', ['Insects']],
-    ['Sandsurge', 'Common', ['Insects','Meat']]
+    ['Sandsurge', 'Common', ['Insects', 'Meat']]
 ]
 
 FRData.BreedRuleList = [
