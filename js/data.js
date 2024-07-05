@@ -192,6 +192,114 @@ for (var i = 0; i < FRTool.UndertideTertiaryGenes.length; i++) {
     );
 }
 
+for (var i = 0; i < FRTool.AetherPrimaryGenes.length; i++) {
+    $('#aether_primary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.AetherPrimaryGenes[i].Name).attr("data-localize", FRTool.AetherPrimaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.AetherPrimaryGenes[i].Odds.Name).attr("data-localize", FRTool.AetherPrimaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.AetherPrimaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.AetherSecondaryGenes.length; i++) {
+    $('#aether_secondary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.AetherSecondaryGenes[i].Name).attr("data-localize", FRTool.AetherSecondaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.AetherSecondaryGenes[i].Odds.Name).attr("data-localize", FRTool.AetherSecondaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.AetherSecondaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.AetherTertiaryGenes.length; i++) {
+    $('#aether_tertiary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.AetherTertiaryGenes[i].Name).attr("data-localize", FRTool.AetherTertiaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.AetherTertiaryGenes[i].Odds.Name).attr("data-localize", FRTool.AetherTertiaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.AetherTertiaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.AuraboaPrimaryGenes.length; i++) {
+    $('#auraboa_primary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.AuraboaPrimaryGenes[i].Name).attr("data-localize", FRTool.AuraboaPrimaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.AuraboaPrimaryGenes[i].Odds.Name).attr("data-localize", FRTool.AuraboaPrimaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.AuraboaPrimaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.AuraboaSecondaryGenes.length; i++) {
+    $('#auraboa_secondary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.AuraboaSecondaryGenes[i].Name).attr("data-localize", FRTool.AuraboaSecondaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.AuraboaSecondaryGenes[i].Odds.Name).attr("data-localize", FRTool.AuraboaSecondaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.AuraboaSecondaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.AuraboaTertiaryGenes.length; i++) {
+    $('#auraboa_tertiary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.AuraboaTertiaryGenes[i].Name).attr("data-localize", FRTool.AuraboaTertiaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.AuraboaTertiaryGenes[i].Odds.Name).attr("data-localize", FRTool.AuraboaTertiaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.AuraboaTertiaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.DusthidePrimaryGenes.length; i++) {
+    $('#dusthide_primary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.DusthidePrimaryGenes[i].Name).attr("data-localize", FRTool.DusthidePrimaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.DusthidePrimaryGenes[i].Odds.Name).attr("data-localize", FRTool.DusthidePrimaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.DusthidePrimaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.DusthideSecondaryGenes.length; i++) {
+    $('#dusthide_secondary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.DusthideSecondaryGenes[i].Name).attr("data-localize", FRTool.DusthideSecondaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.DusthideSecondaryGenes[i].Odds.Name).attr("data-localize", FRTool.DusthideSecondaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.DusthideSecondaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.DusthideTertiaryGenes.length; i++) {
+    $('#dusthide_tertiary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.DusthideTertiaryGenes[i].Name).attr("data-localize", FRTool.DusthideTertiaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.DusthideTertiaryGenes[i].Odds.Name).attr("data-localize", FRTool.DusthideTertiaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.DusthideTertiaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.SandsurgePrimaryGenes.length; i++) {
+    $('#sandsurge_primary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.SandsurgePrimaryGenes[i].Name).attr("data-localize", FRTool.SandsurgePrimaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.SandsurgePrimaryGenes[i].Odds.Name).attr("data-localize", FRTool.SandsurgePrimaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.SandsurgePrimaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.SandsurgeSecondaryGenes.length; i++) {
+    $('#sandsurge_secondary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.SandsurgeSecondaryGenes[i].Name).attr("data-localize", FRTool.SandsurgeSecondaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.SandsurgeSecondaryGenes[i].Odds.Name).attr("data-localize", FRTool.SandsurgeSecondaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.SandsurgeSecondaryGenes[i].Price))
+    );
+}
+
+for (var i = 0; i < FRTool.SandsurgeTertiaryGenes.length; i++) {
+    $('#sandsurge_tertiary_gene_list').find("tbody").append(
+        $("<tr></tr>")
+        .append($("<td></td>").text(FRTool.SandsurgeTertiaryGenes[i].Name).attr("data-localize", FRTool.SandsurgeTertiaryGenes[i].Name))
+        .append($("<td></td>").text(FRTool.SandsurgeTertiaryGenes[i].Odds.Name).attr("data-localize", FRTool.SandsurgeTertiaryGenes[i].Odds.Name))
+        .append($("<td></td>").text(FRTool.SandsurgeTertiaryGenes[i].Price))
+    );
+}
+
 for (var i = 0; i < FRTool.Colors.length; i++) {
     $('#color_list').find("tbody").append(
         $("<tr></tr>")
@@ -365,6 +473,18 @@ allowSort("aberration_tertiary_gene_list");
 allowSort("undertide_primary_gene_list");
 allowSort("undertide_secondary_gene_list");
 allowSort("undertide_tertiary_gene_list");
+allowSort("aether_primary_gene_list");
+allowSort("aether_secondary_gene_list");
+allowSort("aether_tertiary_gene_list");
+allowSort("auraboa_primary_gene_list");
+allowSort("auraboa_secondary_gene_list");
+allowSort("auraboa_tertiary_gene_list");
+allowSort("dusthide_primary_gene_list");
+allowSort("dusthide_secondary_gene_list");
+allowSort("dusthide_tertiary_gene_list");
+allowSort("sandsurge_primary_gene_list");
+allowSort("sandsurge_secondary_gene_list");
+allowSort("sandsurge_tertiary_gene_list");
 allowSort("color_list");
 allowSort("breed_rule_list");
 allowSort("gene_rule_list");
